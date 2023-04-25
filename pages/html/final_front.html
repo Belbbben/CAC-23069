@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final form-control</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <style>
+        #barra{
+            background-color: rgb(63, 65, 65);
+        }
+        #bara{
+            background-color: rgb(63, 65, 65);
+            
+        }
+        .ticket{
+            color:rgb(3, 198, 3)!;
+        }
+        .tarjetas{
+            display:flex;
+            justify-content: end;
+            align-items: end;
+           
+        }
+        .baires{
+            justify-content: end;
+            align-items: end;
+        }
+        .card{
+            justify-content: end;
+            align-items: end;
+        }  
+        
+       .imagenes {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .container2{
+        background-color:rgb(63, 65, 65); ;
+       }
+       .form-container{
+        justify-content: center;
+       }
+       .form-floating{
+        justify-content: center;
+       }
+       #final{
+        background-color:rgb(5, 0, 62);
+    }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  justify-content-end" id="barra">
+        <div class="container-fluid  bg-opacity-75 justify-content-end" id="bara">
+        <img src="../imagenes/logo codo a codo.png" width="150" height="80">
+          <a class="navbar-brand text-white" href="#">Conf Bs As</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"  >La conferencia</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conviertete en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ticket link-success" href="#" >Comprar ticket</a>
+              </li>
+           </ul>
+          </div>
+        </div>
+        
+      </nav>
+
+      <div class="card ">
+        <img src="../imagenes/images.jfif" class="card-img" alt="...">
+        <div class="card-img-overlay position-absolute top-50 end-0 translate-middle-y">
+            <div class=" col-4 Baires position-absolute top-50 end-0 translate-middle-y">
+                <h5 class="card-title text-white text-end">Conf Bs As</h5>
+                <p class="card-text text-white text-end">Buenos Aires llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que teneos para ti. Te esperamos!</p>            </div>
+        </div>
+      </div>
+    <div class="text-center display-flex">
+        <p class="m-0">CONOCE A LOS</p>
+        <h4>
+            ORADORES
+        </h4>
+    </div>
+        <div class="card-group col-9 row g-3 tarjetas m-0" >
+            <div class="card m-4">
+              <img src="../imagenes/steve.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">Un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo accionista individual de The Walt Disney Company.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-4">
+              <img src="../imagenes/Bill.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">Magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-4">
+              <img src="../imagenes/ada.jfif" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Adda Lovelace</h5>
+                <p class="ard-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+    <!--
+
+        <div class="display-flex tarjetas">
+            
+        <div class="card" style="width: 30rem;">
+            <img src="../imagenes/steve.jfif" class="card-img-top" alt="300">
+            <div class="card-body">
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 30rem;">
+            <img src="../imagenes/../imagenes/Bill.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 30rem;">
+            <img src="../imagenes/ada.jfif" class="card-img-top" width="100" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        --
+    </div>
+ -->
+        
+             <div class="row container2 ">
+                    <div class="col-6">
+                        <img src="../imagenes/waikiki.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class=" col-6 text-white ">
+                        <div class="card-body ">
+                            <h5 class="card-title">Bs as - Octbre</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </p>
+                    </div>
+                    </div>
+                </div>
+        
+        <div class="text-center display-flex">
+            <p class="m-0">CONVIERTETE EN UN </p>
+            <h4>
+                ORADOR
+            </h4>
+        </div>
+        <div class="form-container row" display="flex">
+
+            <div class="form-floating mb-3 col-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">
+                    <h3>
+                       Nombre
+                    </h3>
+                    </label>
+            </div>
+            <div class="form-floating col-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">
+                    <h3>
+                        Apellido
+                    </h3>
+                </label>
+            </div>
+        </div>
+        <div class="form-floating" >
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">
+                <h3>
+                    Sobre que queres hablar?
+                </h3>
+            </label>
+        </div>
+
+   
+        <footer>
+            <nav class="navbar navbar-expand-lg  justify-content-center " id="final">
+                                 
+                  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <a class="nav-link text-white" href="#"  >Preguntas Frecuentes</a>
+                          </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link text-white" aria-current="page" href="#">Contactanos</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#">Prensa</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#">Conferencia</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#" >Terminos y Condiciones</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#" >Privacidad</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#" >Estudiantes</a>
+                      </li>
+                   </ul>
+                  </div>
+                </div>
+                
+              </nav>
+        </footer>
+</body>
+</html>
